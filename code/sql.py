@@ -1,5 +1,4 @@
 import sqlite3
-from os import getcwd
 
 
 class SQL:
@@ -102,9 +101,3 @@ class SQL:
 
     def close_connect(cls):
         cls.conn.close()
-        
-# SQL.create_db()
-# g = SQL.db_check_audio('Trololo  man now', 32, 'MURINSKIY', '50kbps')
-# print(g)
-
-# SQL.db_insert_audio('1', "hgh sfdl wefiii", 'i', 1, '1')
