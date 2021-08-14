@@ -5,7 +5,7 @@ from backend import creating_list_quality
 
 
 TOKEN = ""  # your token 
-MY_ID = 1  # your id in telegram
+MY_ID = 0  # your id in telegram
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)

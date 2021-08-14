@@ -6,7 +6,7 @@ from backend import download_from_yt
 
 
 API_ID_CONF = 1  # your id clients in telegram
-API_HASH_CONF = ''  # your hash clients in telegram
+API_HASH_CONF = ""  # your hash clients in telegram
 client = TelegramClient('anon', API_ID_CONF, API_HASH_CONF)
 client.start()
 
